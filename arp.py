@@ -3,8 +3,8 @@ import time
 from scapy.layers.l2 import Ether, ARP
 from scapy.all import sendp
 
-TARGET_MAC = "00:e0:4c:7f:ee:e6"
-# TARGET_MAC = "4c:b7:e0:8f:32:58"
+# TARGET_MAC = "00:e0:4c:7f:ee:e6"
+TARGET_MAC = "4c:b7:e0:8f:32:58"
 # TARGET_MAC = "ff:ff:ff:ff:ff:ff"
 FORGERY_IP = "172.16.0.1"
 FORGERY_MAC = "00:11:45:14:19:19"
